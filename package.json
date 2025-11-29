@@ -1,0 +1,30 @@
+{
+  "name": "telegram-digital-vending-bot",
+  "version": "1.0.0",
+  "description": "Production-grade Telegram digital subscription vending machine bot using Node.js, Telegraf, and MongoDB.",
+  "main": "src/bot/main.js",
+  "scripts": {
+    "start": "node src/bot/main.js",
+    "dev": "nodemon src/bot/main.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "telegraf",
+    "mongo",
+    "digital-products",
+    "subscriptions"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.6.0",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
+
+
